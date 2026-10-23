@@ -96,6 +96,9 @@ def api_heure():
         "message": "Bonjour depuis mon API !",
     })
 
+@app.get("/horloge")
+def horloge():
+    return render_template("horloge.html")
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
