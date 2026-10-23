@@ -36,6 +36,7 @@ def presentation():
         <li>gamble</li>
         <li>et mettre tout sur le rouge</li>
     </ul>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
     """
 
 
