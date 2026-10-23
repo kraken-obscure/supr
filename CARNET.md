@@ -155,19 +155,21 @@
 
 1. Citez trois informations que le serveur connaît sur vous, sans que vous ayez rien rempli.
 
-   > _Ma réponse :_ 
+   > _Ma réponse : ip navigateur et platforme
 
 2. À quoi peut servir l'en-tête `Accept-Language` pour un site comme Wikipédia ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : pour savoir dans quelle language aficher le site selon notre language 
 
 3. Dans l'Access log, retrouvez une requête qui a reçu un code `404`. Quelle page était demandée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :"GET /%3Csvg%20fill= HTTP/1.1" 404 207 "https://krakenobscure.pythonanywhere.com/presentation" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36 OPR/137.0.0.0 (Edition ms_store_gx)" "89.251.55.16" response-time=0.002 
+
+demander = "https://krakenobscure.pythonanywhere.com/presentation
 
 4. Après cet exercice, que pensez-vous de la notion de « navigation anonyme » ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : ca change pas grand chose 
 
 ---
 
