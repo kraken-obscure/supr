@@ -19,7 +19,8 @@ app = Flask(__name__)
 # Flask exécute la fonction accueil() et renvoie son résultat au navigateur.
 @app.get("/")
 def accueil():
-    return "Si tu vois rouge, mets tout sur le noir !"
+    return render_template("accueil.html")
+
 
 
 # ---------------------------------------------------------------
