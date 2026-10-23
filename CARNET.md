@@ -111,11 +111,11 @@
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse : 
+   > _Ma réponse : car il prend pas de parametre a qui = bonjour
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse : 
+   > _Ma réponse : car il peut injecter du code venue de malveillance maxxxxxxxxxxxxxxxxxx 
 
 ---
 
