@@ -27,7 +27,17 @@ def accueil():
 
 @app.get("/presentation")
 def presentation():
-    return "C'etait pas le bonne idee le noir finaliment"
+    return """
+    <h1>Adiction la plus rentable au monde que 1000e la formation</h1>
+    <p>finalement <strong>le noir c'est pas une bonne idee</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Les jeux d'argent</li>
+        <li>gamble</li>
+        <li>et mettre tout sur le rouge</li>
+    </ul>
+    """
+
 
 @app.get("/loisirs")
 def loisirs():
