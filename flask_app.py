@@ -25,7 +25,13 @@ def accueil():
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 # ---------------------------------------------------------------
 
+@app.get("/presentation")
+def presentation():
+    return "C'etait pas le bonne idee le noir finaliment"
 
+@app.get("/loisirs")
+def loisirs():
+    return "all in au black jack c'est mieux"
 
 # ---------------------------------------------------------------
 #  Ne pas modifier : utile seulement pour lancer le site
