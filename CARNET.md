@@ -177,15 +177,15 @@ demander = "https://krakenobscure.pythonanywhere.com/presentation
 
 1. Quelle est la différence entre une page HTML et une réponse JSON ? À qui chacune est-elle destinée ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : une page json c'est juste des donnees et une page html c une presentation de donnees pour l'utilisateur
 
 2. Dans la page `/horloge`, quel code s'exécute sur le **serveur** et quel code s'exécute dans le **navigateur** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Le serveur exécute les routes Flask et produit la page `/horloge` ainsi que les données JSON de `/api/heure`. Le navigateur exécute le JavaScript : il appelle l'API, lit le JSON et met à jour l'heure dans la page.
 
 3. Citez une application de votre téléphone qui, selon vous, utilise une API. Quelles données échange-t-elle ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :  Une application météo utilise une API : elle envoie une ville ou une position et reçoit des données
 
 ---
 
@@ -193,4 +193,4 @@ demander = "https://krakenobscure.pythonanywhere.com/presentation
 
 En quelques phrases, expliquez à un ami ce qui se passe entre le moment où il tape une adresse dans son navigateur et celui où la page s'affiche :
 
-> _Ma réponse :_ 
+> _Ma réponse : Quand on saisit une adresse, le navigateur trouve le serveur correspondant et lui envoie une requête HTTP(S). Le serveur traite la demande et renvoie une réponse, par exemple du HTML. Le navigateur interprète ce HTML, télécharge au besoin les fichiers liés comme le CSS ou les images, puis affiche la page.
